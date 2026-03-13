@@ -1,0 +1,428 @@
+body{
+    width: 100%;
+    max-width: 1700px;
+    min-width: 100vw;
+    height: 100%;
+    background-image:url("./decor/background.svg");
+    background-attachment: fixed;
+    justify-content: center;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow: hidden;
+
+     font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+
+img{
+    max-width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+button{
+     font-family: 'Trebuchet MS', sans-serif;
+}
+
+input{
+      padding: 10px;
+         margin-bottom: 10px;
+          width:90%;
+    align-self: center;
+    border-radius: 10px;
+    background-color: #3C2222;
+     border: #3C2222 solid 4px ;
+     color:#F0EDE1 ;
+     text-align: center;
+
+}
+
+form{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img.gvona_dangly{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    margin-left: 70%;
+    
+}
+
+img.icon{
+    height: 50px;
+    fill: #3C2222;
+}
+img.project{
+    width:90%;
+   margin-bottom: 10px;
+    align-self: center;
+    border-radius: 10px;
+    border: #3C2222 solid 4px ;
+
+    box-shadow: 5px 5px 0px #3C2222;
+   
+}
+
+
+div.gallery{
+    padding: 10px;
+    width:100%;
+    grid-column: 3;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     box-sizing: border-box;
+  
+
+
+}
+
+
+
+#logo{
+margin: 20px;
+}
+
+main{
+    width: 100%;
+     height: 100%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 10px;
+}
+
+main.gallery{
+    width: 100%;
+     height: 100%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 10px;
+}
+
+div.posts{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 10px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     box-sizing: border-box;
+}
+div.comments{
+    grid-column: 3;
+    grid-row: 1;
+    padding: 10px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     box-sizing: border-box;
+}
+
+
+
+div.galleryTwo{
+    padding-left: 10px;
+    grid-column:1;
+    grid-row: 1;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     }
+
+div.window{
+ 
+
+
+    overflow: hidden;
+    background-color:#F0EDE1;
+ 
+    width:90%;
+    
+    min-height: fit-content;
+    border-radius: 10px;
+    border: #3C2222 solid 4px ;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 0px #3C2222;
+    margin-top: 20px;
+    
+}
+
+div.comment{
+ 
+
+
+    overflow: hidden;
+    background-color:#F0EDE1;
+ 
+    width:90%;
+    
+    min-height: fit-content;
+    border-radius: 10px;
+    border: #3C2222 solid 4px ;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 0px #3C2222;
+    margin-top: 20px;
+    
+}
+
+
+div.windowArt{
+
+   
+   background-color:#F0EDE1;
+ 
+    width:90%;
+      
+    min-height: fit-content;
+    border-radius: 10px;
+    border: #3C2222 solid 4px ;
+    width: 100%;
+   
+    box-shadow: 5px 5px 0px #3C2222;
+    margin-top: 20px;
+    position: static;
+}
+
+div.navigation{
+    width:100%;
+    grid-column: 2;
+    position: sticky;
+    padding-top: 10px;
+   
+    
+    background-size: 10px 10px;
+    
+    
+    max-height: min-content;
+    border-radius: 10px;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+    text-align: center;
+      
+}
+
+div.navigationContent{
+    
+ 
+    padding: 10px;
+  
+    background-color:#F0EDE1;
+
+    width:90%;
+   
+    max-height: max-content;
+    border-radius: 10px;
+    border: #3C2222 solid 4px ;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+    box-shadow: 5px 5px 0px #3C2222;  
+}
+
+div.socialmedia{
+display: flex;
+gap: 10px;
+justify-items: center;
+align-items: center;
+}
+
+
+div.windNav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    gap: 6px;
+    width: 100%;
+    color: #3C2222;
+    padding-left: 10px;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+   
+    
+}
+div.content{
+    position: relative;
+    
+    display: flex;
+    min-height: fit-content;
+    min-width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color:#F0EDE1 ;
+
+   
+     border-top: #3C2222 solid 4px ;
+      border-bottom: #3C2222 solid 4px ;
+      transition: height 1.2s ease-out;
+}
+
+div.more{
+     height: 0;
+   overflow: hidden;
+   transition: height 0.3s ease;
+   margin: 5px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+div.more.open{
+    height: fit-content;
+     overflow-y:auto;
+}
+
+
+div.contentText{
+    display: flex;
+    min-height: fit-content;
+width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    background-color:#F0EDE1 ;
+
+}
+
+button.window{
+    width:20px;
+    height:20px;
+    border-radius: 20px;
+    text-decoration: #3C2222;
+     border: #3C2222 solid 4px ;
+       transition: max-height 1.2s ease-out,
+              border 0ms 1.2s linear;
+}
+
+
+
+button.close{
+    background-color: #3C2222;
+}
+
+button.other{
+ box-shadow: 4px 3px 0px #3C2222;
+  background-color:#FF7810 ;
+}
+
+button.navigation{
+ width:80%;
+ height: 40px;
+ background-color:#3C2222 ;
+ border-radius: 10px;
+  box-shadow: -4px -3px 0px #FF7810 inset;
+  border: #3C2222 solid 4px;
+  color:#F0EDE1 ;
+  cursor: pointer;
+}
+
+button.posts{
+ width:80%;
+ margin-top: 5px;
+ height: fit-content;
+ background-color:transparent ;
+ border: 0;
+  color:#3C2222 ;
+  cursor: pointer;
+
+}
+
+button.posts:focus{
+ width:80%;
+ height: fit-content;
+ background-color:transparent ;
+ border: 0;
+  color:#FF7810;
+  cursor: pointer;
+  content:"▲"
+}
+
+button.pressed{
+    width:80%;
+ height: 40px;
+ border-radius: 10px;
+      border: #3C2222 solid 4px;
+ box-shadow: 4px 3px 0px #3C2222 inset;   
+  background-color:#FF7810;
+  color:#3C2222;
+
+}
+
+
+button.navigation:hover{
+ box-shadow: -2px -1px 0px #FF7810 inset; 
+ margin-top: 2px;  
+ height:38px;
+
+}
+
+button.navigation:focus{
+  box-shadow: 4px 3px 0px #3C2222 inset;   
+  background-color:#FF7810;
+  color:#3C2222;
+}
+
+::-webkit-scrollbar{
+ width: 20px;
+ margin: 20px;
+ padding:5px;
+}
+
+::-webkit-scrollbar-thumb{
+    border: #3C2222 solid 4px;
+   
+    background-color:#F0EDE1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #3C2222;
+       
+}
+::-webkit-scrollbar-track{
+ 
+ background-color:#FF7810;
+}
+
+p.windNav{
+ margin-left: 10px;
+ 
+ color:#3C2222
+}
+
+h1{
+    margin: 5px;
+}
+
+h2{
+    color:#FF7810;
+    margin: 5px;
+}
+
+p{
+    margin: 5px;
+}
+
