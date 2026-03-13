@@ -58,7 +58,7 @@ img.gvona_dangly{
 
 img.icon{
     height: 50px;
-   background-color: #3C2222;
+ color: #3C2222;
 }
 img.project{
     width:90%;
@@ -425,5 +425,6 @@ h2{
 p{
     margin: 5px;
 }
+
 
 
